@@ -10,7 +10,7 @@ export const Content = styled.div`
   justify-content: space-between;
 
   margin: 0 auto;
-  max-width: 1120px;
+  max-width: 1140px;
   padding: 2rem 1rem 12rem;
 
   img {

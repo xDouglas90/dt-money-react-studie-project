@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     --white: #ffffff;
     --ghost-white: #f8f8ff;
     --red: #e52e4d;
+    --green: #33cc95;
     --dark-slate-blue: #5429cc;
     --slate-blue: #6933ff;
     --slate-gray: #708090;
@@ -37,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     -webkit-font-smothing: antialiased;
-    background: var(--bg-color);
+    background: var(--background);
   }
 
   body, input, textarea, button {
