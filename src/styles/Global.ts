@@ -62,15 +62,10 @@ export const GlobalStyle = createGlobalStyle`
   .react-modal-overlay {
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
     background: rgba(0, 0, 0, 0.5);
-
     position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    inset: 0;
   }
 
   .react-modal-content {
@@ -79,8 +74,19 @@ export const GlobalStyle = createGlobalStyle`
     padding: 3rem;
     width: 100%;
     max-width: 576px;
-
     position: relative;
+  }
 
+  .react-modal-close {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    transform: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
   }
 `;
