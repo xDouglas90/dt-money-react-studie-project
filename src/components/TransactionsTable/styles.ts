@@ -45,11 +45,11 @@ export const Container = styled.section`
         color: var(--text-title);
       }
 
-      &.active {
+      &.deposit {
         color: var(--green);
       }
 
-      &.passive {
+      &.withdraw {
         color: var(--red);
       }
     }

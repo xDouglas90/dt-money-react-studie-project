@@ -8,6 +8,29 @@ createServer({
     transaction: Model,
   },
 
+  seeds(server) {
+    server.db.loadData({
+      transactions: [
+        {
+          id: 1,
+          title: 'Feelance de website',
+          type: 'deposit',
+          category: 'Serviços',
+          amount: 6000,
+          createdAt: new Date('2021-12-12 09:00:00'),
+        },
+        {
+          id: 2,
+          title: 'Oi Fibra',
+          type: 'withdraw',
+          category: 'Internet',
+          amount: 150,
+          createdAt: new Date('2021-02-20 08:00:00'),
+        },
+      ]
+    })
+  },
+
   routes() {
     this.namespace = "api";
 
