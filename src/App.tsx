@@ -1,9 +1,11 @@
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
-import { GlobalStyle } from "./styles/Global";
 import { NewTransactionModal } from "./components/NewTransactionModal";
 import { useState } from "react";
-import { TransactionsProvider } from "./TransactionsContext";
+import { TransactionsProvider } from "./hooks/useTransactions";
+
+import { GlobalStyle } from "./styles/Global";
+
 
 export function App() {
   const [isNewTransactionsModalOpen, setIsNewTransactionsModalOpen] =
