@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+<h1 align="center">Ignite Módulo 2 projeto: dtmoney</h1>
+<img src="https://i.ibb.co/q0VvtmY/cover-reactjs.png" alt="Imagem cover do curso Ignite trilha ReactJS da Rocketseat">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Projeto de estudos em ReactJS.
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+Aplicação básica para estudos em ReactJS, utilizando "boilerplate" do ReactJS com template de Typescript: `create react-app --template typescript`. O objetivo da aplicação é de somar valores de entrada e saída, informados por um modal, e calcular seus totais.
 
-### `yarn start`
+![Screenshot from 2022-01-14 17-00-39](https://user-images.githubusercontent.com/23640888/149577635-83d34c9c-eb90-4ad5-940f-4bc501bc2bac.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Screenshot from 2022-01-14 17-00-51](https://user-images.githubusercontent.com/23640888/149577650-a27706ef-885a-45b6-a138-66692787af01.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧬 Técnologias utilizadas
 
-### `yarn test`
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+- [React](https://reactjs.org)
+- [Typescript](https://www.typescriptlang.org/)
+- [MirageJS](https://miragejs.com/)
+- [React-Modal](https://github.com/reactjs/react-modal)
+- [Axios](https://axios-http.com/)
+- [React-Toastfy](https://github.com/fkhadra/react-toastify#readme)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+* Você instalou a versão estável mais recente de [Node](https://nodejs.org/en/)
+* Você instalou a versão mais recente de [Yarn](https://yarnpkg.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Instalando
 
-### `yarn eject`
+Clone o repositório:
+```bash
+$ git clone git@github.com:xDouglas90/dt-money-react-studie-project.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Entre na pasta do repositório clonado e no terminal:
+```bash
+$ yarn install ou npm install
+$ yarn start ou npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ☕ Utilizando a aplicação
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Agora basta abrir em um navegador: <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a>, para visualizar a aplicação funcionando.
 
-## Learn More
+## 📝 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este projeto está sob a licença MIT. Veja mais detalhes no arquivo [LICENSE](https://github.com/xdouglas90/ignite-react-challenge-2/blob/main/LICENSE.md).
